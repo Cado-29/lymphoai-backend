@@ -1,0 +1,8 @@
+spring.application.name=dummy-demo
+
+spring.data.mongodb.uri=mongodb+srv://username:password@cluster0.mongodb.net/testdb?retryWrites=true&w=majority&appName=DummyApp
+
+jwt.secret=dummysupersecretkey1234567890
+
+frontend.allowed-origin=http://localhost:3000
+python.api.url=http://127.0.0.1:8000/predict
