@@ -26,7 +26,7 @@ import java.util.List;
 @EnableWebSecurity
 public class SecurityConfig {
 
-    @Value("${frontend.allowed-origin}")
+    @Value("${frontend.allowed-origin:*}")
     private String frontendAllowedOrigin;
 
     private final JwtAuthenticationFilter jwtAuthenticationFilter;
