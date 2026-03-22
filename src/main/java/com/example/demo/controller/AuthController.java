@@ -310,9 +310,4 @@ public class AuthController {
                 "roleId", user.getUserRoleId() == null ? 2 : user.getUserRoleId()
         );
     }
-
-    @GetMapping("/loaderio-c098800bc5bbbad2b0425ed388101fde.txt")
-    public String loaderIoVerification() {
-        return "loaderio-c098800bc5bbbad2b0425ed388101fde";
-    }
 }
